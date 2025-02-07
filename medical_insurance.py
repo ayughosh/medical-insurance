@@ -91,9 +91,8 @@ if __name__ == '__main__':
     avg_cost_category = []
     total_sum_for_men=0
     total_sum_for_women=0
-    c=0
+    counter=0
     b=0
-    # category_to_num = {'male': 0, 'female': 1}
     
     patient_info = PatientsInfo(ages,sexes,bmis,num_children,smoker_statuses,regions,insurance_charges)
     patient_info.analyze_ages()
